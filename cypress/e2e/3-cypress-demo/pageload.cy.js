@@ -5,7 +5,7 @@ context('Page Load Test', () => {
 
   it('Check if Action page loaded fine', () => {
     cy.get('h1').should('exist')
-    //cy.get('h1').should('contain.text', 'Actions')
+    cy.get('h1').should('contain.text', 'Actions')
     cy.get('h1').should('have.text', 'Actions')
   })
 })
