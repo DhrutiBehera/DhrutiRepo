@@ -1,4 +1,4 @@
-context('Page Load Test', () => {
+context('Page Load Test RUN', () => {
   beforeEach(() => {
     cy.visit('http://localhost:8080/commands/actions')
   })
